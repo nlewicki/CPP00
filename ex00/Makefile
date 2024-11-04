@@ -6,14 +6,14 @@
 #    By: nlewicki <nlewicki@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/30 14:04:23 by nlewicki          #+#    #+#              #
-#    Updated: 2024/10/30 14:08:38 by nlewicki         ###   ########.fr        #
+#    Updated: 2024/11/04 09:32:44 by nlewicki         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC = megaphone.cpp
 
 COMPILER = g++
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -std=c++17
 OBJ = $(SRC:.cpp=.o)
 NAME = megaphone
 

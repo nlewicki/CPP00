@@ -6,7 +6,7 @@
 /*   By: nlewicki <nlewicki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:54:04 by nlewicki          #+#    #+#             */
-/*   Updated: 2024/11/04 12:55:20 by nlewicki         ###   ########.fr       */
+/*   Updated: 2024/11/06 12:13:31 by nlewicki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,12 @@ public:
 	void setContact(const std::string& first, const std::string& last,
 					const std::string& nick, const std::string& phone,
 					const std::string& secret);
-	std::string getFirstName() const { return firstName; }
-	std::string getLastName() const { return lastName; }
-	std::string getNickname() const { return nickname; }
-	std::string getPhoneNumber() const { return phoneNumber; }
-	std::string getDarkestSecret() const { return darkestSecret; }
-	bool isEmpty() const { return firstName.empty(); }
+	std::string getFirstName() const;
+	std::string getLastName() const;
+	std::string getNickname() const;
+	std::string getPhoneNumber() const;
+	std::string getDarkestSecret() const;
+	bool isEmpty() const;
 };
 
 #endif

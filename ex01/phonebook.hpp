@@ -6,14 +6,14 @@
 /*   By: nlewicki <nlewicki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:48:47 by nlewicki          #+#    #+#             */
-/*   Updated: 2024/11/04 12:58:31 by nlewicki         ###   ########.fr       */
+/*   Updated: 2024/11/06 11:08:16 by nlewicki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHONEBOOK_HPP
 #define PHONEBOOK_HPP
 
-#include "contact.hpp"
+#include "Contact.hpp"
 #include <string>
 
 class PhoneBook {
